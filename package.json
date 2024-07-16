@@ -4,6 +4,10 @@
   "description": "A Dark theme with some color variants for typescript",
   "version": "0.0.7",
   "publisher": "Jheavi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jheavi/dark-typescript"
+  },
   "engines": {
     "vscode": "^1.91.0"
   },
