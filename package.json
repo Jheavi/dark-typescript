@@ -1,0 +1,22 @@
+{
+  "name": "dark-typescript",
+  "displayName": "Typescript Dark",
+  "description": "A Dark theme with some color variants for typescript",
+  "version": "0.0.6",
+  "publisher": "Jheavi",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Typescript Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/typescript-dark-color-theme.json"
+      }
+    ]
+  }
+}
