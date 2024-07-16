@@ -1247,7 +1247,6 @@
     },
     {
       "scope": [
-        "entity.name.function",
         "support.function",
         "support.constant.handlebars",
         "source.powershell variable.other.member",
@@ -1442,10 +1441,9 @@
     },
     {
       "scope": [
-        "entity.name.function.tsx",
+        "entity.name.function",
         "support.function.tsx",
         "entity.name.function.member",
-        "entity.name.function.ts"
       ],
       "settings": {
         "foreground": "#F1F193"
