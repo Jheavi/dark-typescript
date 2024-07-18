@@ -1444,13 +1444,14 @@
         "entity.name.function",
         "support.function.tsx",
         "entity.name.function.member",
+        "storage.type.function.arrow"
       ],
       "settings": {
         "foreground": "#F1F193"
       }
     },
     {
-      "scope": ["storage.type.function", "meta.arrow.tsx"],
+      "scope": ["meta.arrow.tsx"],
       "settings": {
         "foreground": "#fff"
       }
