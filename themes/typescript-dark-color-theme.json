@@ -1246,14 +1246,19 @@
       }
     },
     {
+      "scope": ["support.function"],
+      "settings": {
+        "foreground": "#fad47c"
+      }
+    },
+    {
       "scope": [
-        "support.function",
-        "support.constant.handlebars",
-        "source.powershell variable.other.member",
-        "entity.name.operator.custom-literal"
+        "entity.name.function",
+        "entity.name.function.member",
+        "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#DCDCAA"
+        "foreground": "#F1F193"
       }
     },
     {
