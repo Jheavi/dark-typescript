@@ -1246,7 +1246,7 @@
       }
     },
     {
-      "scope": ["support.function"],
+      "scope": ["support.function", "support.function.tsx"],
       "settings": {
         "foreground": "#fad47c"
       }
