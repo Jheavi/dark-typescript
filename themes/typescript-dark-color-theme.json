@@ -1246,12 +1246,6 @@
       }
     },
     {
-      "scope": ["support.function", "support.function.tsx"],
-      "settings": {
-        "foreground": "#fad47c"
-      }
-    },
-    {
       "scope": [
         "entity.name.function",
         "entity.name.function.member",
@@ -1259,6 +1253,12 @@
       ],
       "settings": {
         "foreground": "#F1F193"
+      }
+    },
+    {
+      "scope": ["support.function.tsx", "support.function.ts"],
+      "settings": {
+        "foreground": "#fad47c"
       }
     },
     {
@@ -1442,17 +1442,6 @@
       "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
         "foreground": "#FF6123"
-      }
-    },
-    {
-      "scope": [
-        "entity.name.function",
-        "support.function.tsx",
-        "entity.name.function.member",
-        "storage.type.function.arrow"
-      ],
-      "settings": {
-        "foreground": "#F1F193"
       }
     },
     {
