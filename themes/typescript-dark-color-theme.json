@@ -1300,9 +1300,9 @@
       }
     },
     {
-      "scope": ["support.type.primitive"],
+      "scope": ["support.type.primitive", "support.type.builtin"],
       "settings": {
-        "foreground": "#25ff8e"
+        "foreground": "#2bee89"
       }
     },
     {
