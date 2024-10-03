@@ -946,7 +946,6 @@
     {
       "scope": [
         "constant.numeric",
-        "variable.other.enummember",
         "keyword.operator.plus.exponent",
         "keyword.operator.minus.exponent"
       ],
@@ -1258,7 +1257,7 @@
     {
       "scope": ["support.function.tsx", "support.function.ts"],
       "settings": {
-        "foreground": "#fad47c"
+        "foreground": "#ffc743"
       }
     },
     {
@@ -1301,6 +1300,18 @@
       }
     },
     {
+      "scope": ["support.type.primitive"],
+      "settings": {
+        "foreground": "#25ff8e"
+      }
+    },
+    {
+      "scope": ["entity.name.type.enum"],
+      "settings": {
+        "foreground": "#00b969"
+      }
+    },
+    {
       "scope": [
         "meta.type.cast.expr",
         "meta.type.new.expr",
@@ -1333,22 +1344,23 @@
         "meta.definition.variable.name",
         "support.variable",
         "entity.name.variable",
-        "constant.other.placeholder"
+        "constant.other.placeholder",
+        "meta.object-literal.key"
       ],
       "settings": {
         "foreground": "#9CDCFE"
       }
     },
     {
-      "scope": ["variable.other.constant", "variable.other.enummember"],
+      "scope": ["variable.other.constant"],
       "settings": {
         "foreground": "#4FC1FF"
       }
     },
     {
-      "scope": ["meta.object-literal.key"],
+      "scope": ["variable.other.enummember"],
       "settings": {
-        "foreground": "#9CDCFE"
+        "foreground": "#3194ff"
       }
     },
     {
@@ -1373,14 +1385,7 @@
         "punctuation.character.set.begin.regexp",
         "punctuation.character.set.end.regexp",
         "keyword.operator.negation.regexp",
-        "support.other.parenthesis.regexp"
-      ],
-      "settings": {
-        "foreground": "#CE9178"
-      }
-    },
-    {
-      "scope": [
+        "support.other.parenthesis.regexp",
         "constant.character.character-class.regexp",
         "constant.other.character-class.set.regexp",
         "constant.other.character-class.regexp",
