@@ -1255,7 +1255,11 @@
       }
     },
     {
-      "scope": ["support.function.tsx", "support.function.ts"],
+      "scope": [
+        "support.function.tsx",
+        "support.function.ts",
+        "entity.name.function.member"
+      ],
       "settings": {
         "foreground": "#ffc743"
       }
